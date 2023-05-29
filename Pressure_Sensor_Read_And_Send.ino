@@ -52,11 +52,11 @@ void setup() {
 void loop() {
   //Increase_Bits(2);
   // Calculate output voltage. Go from analog to digitial by timing it with the maximum voltage 5V devided by 1024, since we have a 10 bit converter
-  //S1 = analogRead(Sensor_Pin_1);// * 5.00/1024;
-  //S2 = analogRead(Sensor_Pin_2);// * 5.00/1024;
-  //S3 = analogRead(Sensor_Pin_3);// * 5.00/1024;
-  S4 = analogRead(Sensor_Pin_4); //* 5.00/1024;
-  S5 = analogRead(Sensor_Pin_5);
+  S1 = analogRead(Sensor_Pin_1);// * 5.00/1024;
+  S2 = analogRead(Sensor_Pin_2);// * 5.00/1024;
+  S3 = analogRead(Sensor_Pin_3);// * 5.00/1024;
+  //S4 = analogRead(Sensor_Pin_4); //* 5.00/1024;
+  //S5 = analogRead(Sensor_Pin_5);
   // Calculate water pressure
   //P1 = (V1-offset_1) * 250;
   //P2 = (V2-offset_2) * 250;
