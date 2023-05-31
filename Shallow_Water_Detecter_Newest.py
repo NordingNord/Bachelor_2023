@@ -1685,7 +1685,7 @@ def Test_Air_Fir():
     
     
 
-def FUCK_ALT():
+def Ano_Test():
     
     # Make signal
     np.random.seed(1234)
@@ -1816,7 +1816,6 @@ while GPIO.input(Button) == GPIO.LOW:
 #Sample_Test()
 #Filter_Test()
 #FFT_Test()
-#FUCK_ALT()
 Test_Air_Fir()
 #Test_Test()
 #Signal_Processing()
